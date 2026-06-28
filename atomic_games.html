@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原子物理小游戏游戏合集</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #f0f2f5;
+        }
+        h1 { color: #333; }
+        .game-grid {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .game-card {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+            transition: transform 0.2s;
+            border: 2px solid transparent;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎮 原老师的原子物理游戏合集</h1>
+    <div class="game-grid">
+        <!-- 注意：href 里填的是游戏文件夹的名字 -->
+        <a href="游戏1-Hydrogen Atom/" class="game-card">Hydrogen atom</a>
+        <a href="游戏2-Sodium Atom/" class="game-card">Sodium atom</a>
+        <a href="游戏3-Zeeman Game/" class="game-card">Zeeman Game/a>
+        <!-- 后续有新增游戏，在这里继续添加卡片即可 -->
+    </div>
+</body>
+</html>
